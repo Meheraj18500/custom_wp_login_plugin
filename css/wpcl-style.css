@@ -1,0 +1,127 @@
+body.login {
+    background: url(../img/Frame\ 14.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  body.login::after {
+    background: #0B1218;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  body.login #login h1 {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+  }
+  body.login #login h1 a, body.login .login h1 a {
+    background-position: center center;
+    background-size: contain;
+    width: 200px;
+    height: 46px;
+    margin-bottom: 0;
+}
+  body.login #login {
+    background-color: #ffffff;
+    border: 0px solid #f9f9f9;
+    -webkit-box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    width: 450px;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  body.login #loginform {
+    background-color: #ffffff;
+    padding: 45px 40px 40px;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 0;
+  }
+  #loginform .forgetmenot {
+    display: block;
+    float: right;
+    margin: 14px 0px;
+  }
+  #login form p.submit {
+    float: left;
+    margin-top: 10px;
+  }
+  #login form p.submit input {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 35px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #231837;
+    border-color: #231837;
+    color: #ffffff;
+    box-shadow: none;
+    text-shadow: none;
+    transition: 0.3s;
+  }
+  #login form p.submit input:hover {
+    background: #231837;
+    color: #ffffff;
+  }
+  #login #nav {
+    padding: 20px 0px 20px 40px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .login #nav {
+    margin: 0;
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+    padding: 0;
+  }
+  .login #backtoblog a, .login #nav a {
+    color: #969696;
+    transition: 0.3s;
+  }
+  #login #backtoblog {
+    float: right;
+    padding: 20px 40px 20px 0px;
+    margin: 0px;
+  }
+  
+  #login #login_error, #login .message, #login .success{
+    padding: 10px;
+    background: #231837;
+    color: #ffffff;
+    border-left: 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+  input#user_login,
+  input#user_pass {
+    font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: 0.0625rem;
+    padding: 0.1875rem 0.3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+  }
+  
+  /* Authentication Checker Page*/
+  #wp-auth-check-wrap #wp-auth-check{
+    background: transparent !important;
+  }
+  #wp-auth-check-wrap #wp-auth-check button{
+    background: #fff !important;
+  }
